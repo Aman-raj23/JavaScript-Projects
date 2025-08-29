@@ -35,7 +35,7 @@ btn.addEventListener("click", function() {
 resetBtn.addEventListener("click", function() {
     randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
     attempt = 0;
-    // attempts.textContent = `Attempts: ${attempt}`;
+    attempts.textContent = `Attempts: ${attempt}`;
     message.textContent = `Game reset! Guess a number between ${min} and ${max}.`;
     inputNum.value = '';
 });
