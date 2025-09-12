@@ -10,6 +10,7 @@ function clock() {
     const date = now.toDateString();
 
     document.getElementById('time').textContent = time;
+    
     document.getElementById('date').textContent = date;
 
 }
