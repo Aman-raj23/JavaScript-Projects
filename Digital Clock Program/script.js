@@ -12,7 +12,6 @@ function clock() {
     document.getElementById('time').textContent = time;
     
     document.getElementById('date').textContent = date;
-
 }
 
 clock();
