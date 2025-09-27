@@ -18,7 +18,6 @@ password.oninput = function () {
             if (item.test(value)) {
                 point += 1;
             }
-        
         });
     }
     power.style.width = widthPower[point];
