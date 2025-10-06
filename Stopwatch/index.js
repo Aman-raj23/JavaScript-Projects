@@ -45,4 +45,5 @@ function updateTimer() {
     milliseconds = milliseconds.toString().padStart(2, "0");
 
     display.textContent = `${hours}:${minutes}:${seconds}:${milliseconds}`;
+
 }   
