@@ -12,7 +12,6 @@ function start() {
     }
 }
 
-
 function stop() {
     if (isRunning) {
         isRunning = false;
