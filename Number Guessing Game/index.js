@@ -1,8 +1,6 @@
 let inputNum = document.getElementById("inputNum");
 let btn = document.getElementById("btn");
 let message = document.getElementById("message");
-let attempts = document.getElementById("attempts");
-const resetBtn = document.getElementById("resetBtn");
 
 let min = 1;
 let max = 100;
