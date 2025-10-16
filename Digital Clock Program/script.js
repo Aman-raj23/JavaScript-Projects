@@ -14,3 +14,5 @@ document.getElementById('time').textContent = time;
     
 }
 
+clock();
+setInterval(clock, 1000);
