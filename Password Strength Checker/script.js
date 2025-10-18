@@ -7,7 +7,10 @@ password.oninput = function () {
     let value = password.value;
     let widthPower = 
         ["1%", "25%", "50%", "75%", "100%"];
-    
+
+    let colorPower = 
+        ["#D73F40", "#DC6551", "#F2B84F", "#BDE952", "#3ba62f"];
+
     
     if (value.length >= 6) {
         let arrayTest = 
