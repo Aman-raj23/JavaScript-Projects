@@ -22,12 +22,6 @@ function stop() {
 }
 
 
-function reset() {
-    clearInterval(timerInterval);
-    display.textContent = `00:00:00:00`;
-    isRunning = false;
-    elapsedTime = 0;
-}
 
 function updateTimer() {
     const currentTime = Date.now();
